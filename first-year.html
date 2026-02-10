@@ -9,26 +9,26 @@
 body{
   margin:0;
   font-family:"Segoe UI", Arial, sans-serif;
-  background:#f5f7fa;
+  background:#f4f7fb;
   color:#2b2b2b;
 }
 
 /* HEADER */
 header{
-  background:#0b5ed7;
+  background:linear-gradient(90deg,#0b5ed7,#5c2be2);
   color:white;
-  padding:25px 20px;
+  padding:30px 20px;
   text-align:center;
 }
 
 header h1{
   margin:0;
-  font-size:28px;
+  font-size:30px;
 }
 
 header p{
-  margin-top:6px;
-  font-size:15px;
+  margin-top:8px;
+  font-size:16px;
 }
 
 /* NAV */
@@ -55,9 +55,9 @@ nav a{
 /* CARD */
 .card{
   background:white;
-  border-radius:10px;
+  border-radius:12px;
   padding:25px;
-  margin-bottom:25px;
+  margin-bottom:30px;
   box-shadow:0 6px 18px rgba(0,0,0,0.08);
 }
 
@@ -66,15 +66,28 @@ nav a{
   color:#0b5ed7;
 }
 
+/* IMAGE */
+.study-img{
+  width:100%;
+  max-width:700px;
+  display:block;
+  margin:20px auto;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
 /* LIST */
 ul{
   line-height:1.8;
 }
 
-/* ODISHA TEXT */
+/* ODIA */
 .odia{
-  font-size:16px;
   color:#444;
+  font-size:16px;
+  background:#f1f3ff;
+  padding:12px;
+  border-radius:8px;
 }
 
 /* FOOTER */
@@ -103,29 +116,46 @@ footer{
 
 <div class="container">
 
+  <!-- INTRO -->
   <div class="card">
     <h2>Introduction to OT Technology</h2>
+
+    <img class="study-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Operating_room.jpg"
+      alt="Operation Theatre"
+    >
+
     <p>
-      Operation Theatre (OT) Technology deals with preparation,
-      assistance, and maintenance of the operation theatre during
-      surgical procedures.
+      Operation Theatre (OT) Technology involves preparation,
+      assistance, sterilization, and patient safety during surgery.
     </p>
-    <p class="odia">
-      ଅପରେସନ୍ ଥିଏଟର (OT) ପ୍ରଯୁକ୍ତି ବିଦ୍ୟାରେ ଅପରେସନ୍ ପୂର୍ବ,
-      ସମୟ ଏବଂ ପରେ ଆବଶ୍ୟକୀୟ ପ୍ରସ୍ତୁତି ଓ ସହଯୋଗ ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
-    </p>
+
+    <div class="odia">
+      ଅପରେସନ୍ ଥିଏଟର (OT) ପ୍ରଯୁକ୍ତିରେ ଅପରେସନ୍ ପୂର୍ବ,
+      ସମୟ ଓ ପରେ ରୋଗୀ ସୁରକ୍ଷା ଏବଂ ଯନ୍ତ୍ରପାତି ପ୍ରସ୍ତୁତି
+      ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
+    </div>
   </div>
 
+  <!-- ANATOMY -->
   <div class="card">
     <h2>Human Anatomy & Physiology</h2>
+
+    <img class="study-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Human_body_systems_diagram.png"
+      alt="Human Body Systems"
+    >
+
     <p>
-      Study of structure and functions of the human body,
-      including all major systems.
+      Anatomy and Physiology deals with the structure and functions
+      of the human body and its systems.
     </p>
-    <p class="odia">
+
+    <div class="odia">
       ମାନବ ଶରୀରର ଗଠନ ଏବଂ କାର୍ଯ୍ୟ ପ୍ରଣାଳୀର ଅଧ୍ୟୟନକୁ
       ଶରୀର ଗଠନ ଏବଂ ଶରୀର ବିଜ୍ଞାନ କୁହାଯାଏ।
-    </p>
+    </div>
+
     <ul>
       <li>Skeletal System</li>
       <li>Muscular System</li>
@@ -134,41 +164,46 @@ footer{
     </ul>
   </div>
 
+  <!-- MICROBIOLOGY -->
   <div class="card">
     <h2>Microbiology</h2>
+
+    <img class="study-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Bacteria_types_diagram.png"
+      alt="Types of Bacteria"
+    >
+
     <p>
-      Microbiology deals with microorganisms and their role in
-      infection, disease, and prevention.
+      Microbiology is the study of microorganisms and their role
+      in infections and diseases.
     </p>
-    <p class="odia">
-      ଜୀବାଣୁ ବିଜ୍ଞାନରେ ବ୍ୟାକ୍ଟେରିଆ, ଭାଇରସ୍, ଫଙ୍ଗସ୍ ଓ
-      ସେମାନଙ୍କର ରୋଗ ସୃଷ୍ଟି କ୍ଷମତା ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
-    </p>
+
+    <div class="odia">
+      ଜୀବାଣୁ ବିଜ୍ଞାନରେ ବ୍ୟାକ୍ଟେରିଆ, ଭାଇରସ୍,
+      ଫଙ୍ଗସ୍ ଓ ସେମାନଙ୍କର ରୋଗ ସୃଷ୍ଟି କ୍ଷମତା
+      ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
+    </div>
   </div>
 
+  <!-- STERILIZATION -->
   <div class="card">
     <h2>Sterilization & Disinfection</h2>
+
+    <img class="study-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Autoclave_schematic.png"
+      alt="Autoclave Diagram"
+    >
+
     <p>
-      Essential methods used in OT to prevent infection and maintain
-      sterile environment.
+      Sterilization is essential in OT to prevent infection
+      and maintain aseptic conditions.
     </p>
+
     <ul>
       <li>Autoclave</li>
       <li>Chemical Sterilization</li>
-      <li>Disinfection Techniques</li>
+      <li>Disinfection Methods</li>
     </ul>
-  </div>
-
-  <div class="card">
-    <h2>Patient Care & Safety</h2>
-    <p>
-      Focuses on patient handling, safety measures, and ethical care
-      during surgical procedures.
-    </p>
-    <p class="odia">
-      ରୋଗୀଙ୍କ ସୁରକ୍ଷା, ସେବା ଓ ସଠିକ୍ ବ୍ୟବହାର OT ଟେକ୍ନିସିଆନଙ୍କ
-      ପାଇଁ ଅତ୍ୟନ୍ତ ଆବଶ୍ୟକ।
-    </p>
   </div>
 
 </div>
