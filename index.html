@@ -36,4 +36,145 @@ header p{
 /* CONTAINER */
 .container{
   max-width:1100px;
-  margin:auto
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* CARD */
+.card{
+  background:white;
+  border-radius:10px;
+  padding:28px;
+  margin-bottom:30px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card h2{
+  margin-top:0;
+  color:#0b5ed7;
+  font-size:22px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+}
+
+/* YEAR BOX */
+.year-box{
+  border:1px solid #e0e4eb;
+  border-radius:10px;
+  padding:22px;
+  background:#fafbfc;
+}
+
+.year-box h3{
+  margin-top:0;
+  color:#343a40;
+}
+
+.year-box ul{
+  padding-left:18px;
+  line-height:1.7;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:12px 22px;
+  background:#198754;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:600;
+}
+
+/* EXAM */
+.exam{
+  background:#fff;
+  border-left:6px solid #ffc107;
+}
+
+/* FOOTER */
+footer{
+  background:#212529;
+  color:#ccc;
+  text-align:center;
+  padding:18px;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Divine Health Science Notes</h1>
+  <p>OT Technician • Diploma • Academic Learning Portal</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>About This Website</h2>
+    <p>
+      This academic portal is developed for <b>OT Technician students</b> of  
+      <b>Divine College of Health Science</b> to support structured learning,
+      exam preparation, and revision.
+    </p>
+    <p>
+      Content is prepared in <b>English + ଓଡ଼ିଆ</b> with focus on
+      theory, viva, and practical understanding.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Course Structure</h2>
+    <div class="grid">
+
+      <div class="year-box">
+        <h3>📘 1st Year – OT Technician</h3>
+        <ul>
+          <li>Introduction to OT Technology</li>
+          <li>Human Anatomy & Physiology</li>
+          <li>Microbiology</li>
+          <li>Sterilization & Disinfection</li>
+        </ul>
+        <a class="btn" href="first-year.html">View 1st Year Notes</a>
+      </div>
+
+      <div class="year-box">
+        <h3>📗 2nd Year – OT Technician</h3>
+        <ul>
+          <li>Anaesthesia Technology</li>
+          <li>Emergency & Trauma Care</li>
+          <li>Infection Control</li>
+          <li>Medical Ethics</li>
+        </ul>
+        <a class="btn" href="second-year.html">View 2nd Year Notes</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="card exam">
+    <h2>Examination Support</h2>
+    <p>
+      ✔ Important Questions<br>
+      ✔ Short Notes<br>
+      ✔ Viva Questions<br>
+      ✔ Quick revision points
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  Created by <b>MANGARAJ NAYAK</b> | Divine Health Science Notes
+</footer>
+
+</body>
+</html>
