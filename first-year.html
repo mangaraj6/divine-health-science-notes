@@ -8,30 +8,18 @@
 <style>
 body{
   margin:0;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background:#f4f7fb;
-  color:#2b2b2b;
+  color:#222;
 }
 
-/* HEADER */
 header{
-  background:linear-gradient(90deg,#0b5ed7,#5c2be2);
+  background:#0b5ed7;
   color:white;
-  padding:30px 20px;
+  padding:25px;
   text-align:center;
 }
 
-header h1{
-  margin:0;
-  font-size:30px;
-}
-
-header p{
-  margin-top:8px;
-  font-size:16px;
-}
-
-/* NAV */
 nav{
   background:#083f9b;
   padding:10px;
@@ -40,57 +28,46 @@ nav{
 
 nav a{
   color:white;
-  text-decoration:none;
   margin:0 12px;
-  font-weight:600;
+  text-decoration:none;
+  font-weight:bold;
 }
 
-/* CONTAINER */
 .container{
   max-width:1100px;
   margin:auto;
-  padding:40px 20px;
+  padding:30px 20px;
 }
 
-/* CARD */
 .card{
   background:white;
-  border-radius:12px;
+  border-radius:10px;
   padding:25px;
   margin-bottom:30px;
-  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
 .card h2{
-  margin-top:0;
   color:#0b5ed7;
+  margin-top:0;
 }
 
-/* IMAGE */
 .study-img{
   width:100%;
-  max-width:700px;
+  max-width:600px;
   display:block;
   margin:20px auto;
-  border-radius:10px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.15);
-}
-
-/* LIST */
-ul{
-  line-height:1.8;
-}
-
-/* ODIA */
-.odia{
-  color:#444;
-  font-size:16px;
-  background:#f1f3ff;
-  padding:12px;
   border-radius:8px;
+  border:1px solid #ddd;
 }
 
-/* FOOTER */
+.odia{
+  background:#eef1ff;
+  padding:12px;
+  border-radius:6px;
+  margin-top:10px;
+}
+
 footer{
   background:#212529;
   color:#ccc;
@@ -109,101 +86,78 @@ footer{
 </header>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="first-year.html">1st Year</a>
-  <a href="second-year.html">2nd Year</a>
+  <a href="./index.html">Home</a>
+  <a href="./first-year.html">1st Year</a>
+  <a href="./second-year.html">2nd Year</a>
 </nav>
 
 <div class="container">
 
-  <!-- INTRO -->
   <div class="card">
     <h2>Introduction to OT Technology</h2>
 
     <img class="study-img"
       src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Operating_room.jpg"
-      alt="Operation Theatre"
-    >
+      alt="Operation Theatre">
 
     <p>
-      Operation Theatre (OT) Technology involves preparation,
-      assistance, sterilization, and patient safety during surgery.
+      OT Technology deals with preparation, assistance, and maintenance
+      of the operation theatre during surgical procedures.
     </p>
 
     <div class="odia">
-      ଅପରେସନ୍ ଥିଏଟର (OT) ପ୍ରଯୁକ୍ତିରେ ଅପରେସନ୍ ପୂର୍ବ,
-      ସମୟ ଓ ପରେ ରୋଗୀ ସୁରକ୍ଷା ଏବଂ ଯନ୍ତ୍ରପାତି ପ୍ରସ୍ତୁତି
-      ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
+      ଅପରେସନ୍ ଥିଏଟର (OT) ପ୍ରଯୁକ୍ତିରେ ଅପରେସନ୍ ପୂର୍ବ, ସମୟ
+      ଏବଂ ପରେ ରୋଗୀ ସୁରକ୍ଷା ଓ ସହଯୋଗ ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
     </div>
   </div>
 
-  <!-- ANATOMY -->
   <div class="card">
     <h2>Human Anatomy & Physiology</h2>
 
     <img class="study-img"
       src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Human_body_systems_diagram.png"
-      alt="Human Body Systems"
-    >
+      alt="Human Body Systems">
 
     <p>
-      Anatomy and Physiology deals with the structure and functions
-      of the human body and its systems.
+      Anatomy and physiology is the study of structure and functions
+      of the human body.
     </p>
 
     <div class="odia">
       ମାନବ ଶରୀରର ଗଠନ ଏବଂ କାର୍ଯ୍ୟ ପ୍ରଣାଳୀର ଅଧ୍ୟୟନକୁ
       ଶରୀର ଗଠନ ଏବଂ ଶରୀର ବିଜ୍ଞାନ କୁହାଯାଏ।
     </div>
-
-    <ul>
-      <li>Skeletal System</li>
-      <li>Muscular System</li>
-      <li>Respiratory System</li>
-      <li>Circulatory System</li>
-    </ul>
   </div>
 
-  <!-- MICROBIOLOGY -->
   <div class="card">
     <h2>Microbiology</h2>
 
     <img class="study-img"
       src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Bacteria_types_diagram.png"
-      alt="Types of Bacteria"
-    >
+      alt="Types of Bacteria">
 
     <p>
-      Microbiology is the study of microorganisms and their role
-      in infections and diseases.
+      Microbiology deals with microorganisms like bacteria,
+      viruses and fungi.
     </p>
 
     <div class="odia">
-      ଜୀବାଣୁ ବିଜ୍ଞାନରେ ବ୍ୟାକ୍ଟେରିଆ, ଭାଇରସ୍,
-      ଫଙ୍ଗସ୍ ଓ ସେମାନଙ୍କର ରୋଗ ସୃଷ୍ଟି କ୍ଷମତା
-      ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
+      ଜୀବାଣୁ ବିଜ୍ଞାନରେ ବ୍ୟାକ୍ଟେରିଆ, ଭାଇରସ୍
+      ଓ ଫଙ୍ଗସ୍ ବିଷୟରେ ଅଧ୍ୟୟନ କରାଯାଏ।
     </div>
   </div>
 
-  <!-- STERILIZATION -->
   <div class="card">
     <h2>Sterilization & Disinfection</h2>
 
     <img class="study-img"
       src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Autoclave_schematic.png"
-      alt="Autoclave Diagram"
-    >
+      alt="Autoclave Diagram">
 
     <p>
-      Sterilization is essential in OT to prevent infection
-      and maintain aseptic conditions.
+      Sterilization prevents infection and maintains
+      aseptic conditions in OT.
     </p>
-
-    <ul>
-      <li>Autoclave</li>
-      <li>Chemical Sterilization</li>
-      <li>Disinfection Methods</li>
-    </ul>
   </div>
 
 </div>
